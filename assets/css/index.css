@@ -1,0 +1,47 @@
+/* CSS Document */
+*{margin:0;padding:0;text-decoration:none;}
+body{background:#FFF;}
+#wrap{	width:100%;background-color:#FFF;margin:auto;}
+.header1{width:100%;height:62px;margin:auto;background-color:#FFF;position:fixed;border-bottom:2px solid #999;}
+#wrap_header1{width:75%;height:62px;margin:auto;}
+#wrap_header1 #logos{float:left;width:20%;height:52px;padding:1px;margin:auto;}
+#wrap_header1 #login{float:right;margin:auto;width:30%;height:auto;padding:10px;text-indent: 10px;letter-spacing: 2px;font: 18px Arial;line-height: 50px;}
+#wrap_header1 #login a:link{text-decoration:none;color:#999;}
+#wrap_header1 #login a:hover{text-decoration:underline;color:#999;}
+.login {background:#FFF;color:#069; border:1px solid #2A80B9; padding:10px 20px; text-decoration:none; font-family:Arial; font-size:14pt; float:right;letter-spacing: 3px;border-radius:5px;}
+.login:hover { background-color: #F3F3F3; border-bottom:3px solid #2A80B9;}
+.modal-window { position: fixed; background-color: rgba(0, 0, 0, 0.75); top: 0;right: 0;bottom: 0; left: 0;z-index: 999; opacity: 0; pointer-events: none;}
+ .modal-window:target { opacity:1; pointer-events: auto;z-index: 99999999999;-webkit-transition:all 1s;-moz-transition:all 1s;transition:all 1s;}
+ .modal-window>div { width: 400px; height: 400px; position: relative; margin: 10% auto; padding: 2rem;}
+.modal-close {float: right;text-decoration: none;padding: 9px; margin-top: 14px;}
+.form_login{width: 400px;height: 330px;background-color: white;margin: auto; border-radius: 7px;}
+.header_login_form{	width: auto;height: 70px;background-color: #2A80B9;font:bold 30px Calibri;color: white;text-align: left;line-height: 65px;letter-spacing: normal;}
+#wrap_input{width: 300px;margin: auto;top: 0;font: 16px Calibri;line-height: 40px;}
+#wrap_input a{color: #2A80B9;text-decoration: none;}
+#wrap_input a:hover{text-decoration: underline;}
+.input_login{width: 300px;height: 40px;background-color: white;	border-radius: 4px;border: 1px solid #2A80B9;right: 0;}
+.header2{color:#FFF;padding-top:62px;margin:auto;background-image:url(../images/h1.jpg);width:auto;	height:600px;background-size:100% 100%;	min-height:600px;text-align:center;line-height: 40px;letter-spacing: 4px;font-family:Lithos Pro Regular;}
+.br{margin-top:180px;}
+.signup {background:none;color:#069; border:1px solid #2A80B9; padding:12px 25px; text-decoration:none; font-family:Arial ; font-weight:bold; font-size:16pt ;letter-spacing: 4px;border-radius:5px;}
+.signup:hover {background-color: #F3F3F3; border-bottom:3px solid #2A80B9;}
+.modal2-window { position: fixed; background-color: rgba(0, 0, 0, 0.75); top: 0; right: 0; bottom: 0; left: 0; z-index: 999; opacity: 0;  pointer-events: none;} 
+.modal2-window:target {  opacity:1; pointer-events: auto;z-index: 99999999999;-webkit-transition:all 1s;-moz-transition:all 1s;transition:all 1s;}
+ .modal2-window>div { width: 400px; height: 400px;  position: relative;  margin: 10% auto;  padding: 2rem;}
+.modal2-close {	float: right; text-decoration: none; padding: 9px;}
+#wrap_signup{margin: auto;height: 400px;width: 400px;background-color: white;font: italic 16px Calibri;color: grey;letter-spacing: 1px; border-radius: 8px;}
+#header_signup{width: auto;height: 40px;margin: auto;background-color: 2A80B9;margin-bottom: 20px;color: white;font: bold 28px Calibri;text-align: left;padding: 10px;}
+#wrap_content1{overflow: hidden;width: 1280px;margin: 40px auto;color:#333;	font-family:Calibri;line-height: 20px;letter-spacing: 1px;font-size:17px;}
+#content1{float: left;width: 260px;margin-right: 40px;height:auto;margin:10px 81px auto;}
+#cirle{	height:200px;width:210px;background:none;border-radius:150px;margin:auto;border:1px solid #999;}
+#wrap_content2{overflow:hidden;width:100%;height:500px;margin: auto;background-image:url(../images/mapss.jpg);background-size:100% 100%;color:#FFF;font-family:Calibri;}
+#text_content2{margin:70px auto;text-align:center;}
+#wrap_content2 #wrap_wrap_content2{width:900px;margin:auto;	}
+#wrap_content2 #wrap_wrap_content2 #content22{height:238px;width:259px;float:left;background-color:#3186BF;margin:20px 20px auto;}
+#wrap_content2 #wrap_wrap_content2 #content22 #icon{height:110px;width:150px;padding:10px;background-color:#3186BF;margin:2px auto;}
+.footer{height:69px;width:80%;background-color:#fff;padding:11px;line-height: 20px;letter-spacing: 2px;margin: auto;}
+.footer img{width: 20px;height: 20px;position: relative;top: 2px;}
+.footer b{float: left;font: 16px calibri;}
+.footer b:hover, a:hover{color: rgb(20,153,212);cursor: copy;}
+.footer a{float: right;font:bold 18px calibri;position: relative;top: 12px;}
+.footer p{font: 14px calibri;color: rgb(20,153,212);margin-left: 20px;text-decoration: underline;}
+.footer br{	line-height: 25px;}
